@@ -56,6 +56,7 @@ async function render(_opts = {}) {
     pdf: {
       format: 'A4',
       printBackground: true,
+      omitBackground: false,
     },
     screenshot: {
       type: 'png',

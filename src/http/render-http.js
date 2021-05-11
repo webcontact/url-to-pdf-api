@@ -174,6 +174,7 @@ function getOptsFromQuery(query) {
         left: query['pdf.margin.left'],
       },
       printBackground: query['pdf.printBackground'],
+      omitBackground: query['pdf.omitBackground'],
     },
     screenshot: {
       fullPage: query['screenshot.fullPage'],
