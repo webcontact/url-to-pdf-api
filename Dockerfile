@@ -1,8 +1,8 @@
-FROM node:10.16.0
+FROM node:20
 
 WORKDIR /usr/src/app
-ENV NODE_ENV production
-ENV PORT 9000
+ENV NODE_ENV=production
+ENV PORT=9000
 EXPOSE 9000
 
 RUN apt-get update \
