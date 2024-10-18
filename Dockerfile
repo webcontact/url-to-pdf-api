@@ -14,7 +14,7 @@ RUN apt-get update \
         libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 \
         libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 \
         libxrender1 libxss1 libxtst6 ca-certificates \
-        fonts-liberation fonts-indic fonts-noto fonts-noto-cjk \
+        fonts-noto fonts-noto-cjk fonts-noto-cjk-extra fonts-wqy-zenhei \
         libappindicator1 libnss3 lsb-release xdg-utils wget \
     && rm -r /var/lib/apt/lists/*
 
